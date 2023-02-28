@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<table>
+		<td>
+			<video width="720px" height="480px" controls autoplay>
+				<source src="https://dai.google.com/linear/hls/pb/event/crO2xItzS0K0Mznc1p0yPA/stream/5ff0c1f3-02e8-4d07-9ac8-644887401f3d:SIN2/variant/ae139b229b5726df274b262af86ad644/bandwidth/1200000.m3u8">
+			</video>
+		</td>
+		<td>
+			<video width="720px" height="480px" controls autoplay muted>
+				<source src="https://mediacorp-videosbclive.akamaized.net/f4abbc22204c49e2b337203b0ebbf14b/ap-southeast-1/6057994443001/profile_0/chunklist.m3u8">
+			</video>
+		</td>
+	</table>
+	<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "那斯達克綜合指數",
+      "proName": "NASDAQ:IXIC"
+    },
+    {
+      "description": "標準普爾500指數",
+      "proName": "OANDA:SPX500USD"
+    },
+    {
+      "description": "道瓊工業平均指數",
+      "proName": "SPREADEX:DJI"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "zh_TW"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "標準普爾500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "description": "USD/CNH",
+      "proName": "FX_IDC:USDCNH"
+    },
+    {
+      "description": "默克藥廠",
+      "proName": "NYSE:MRK"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "locale": "zh_TW"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</body>
+</html>
